@@ -2,15 +2,52 @@ body {
     background-color: rgb(235, 235, 240);
     color: rgb(36, 36, 38);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+}
+
+p {
+    font-size: 12pt;
+}
+
+h1 {
+    font-size: 36pt;
+}
+
+h2 {
+    font-size: 24pt;
+}
+
+#title {
+    text-align: center;
+    text-transform: uppercase;
 }
 
 #img-div {
-    background-color: rgb(142,142,147);
-    margin: 0;
+    background-color: rgb(142, 142, 147);
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #image {
-    border-radius: 25px;
+    border-radius: 10px;
     width: fit-content;
     max-width: 50%;
+}
+
+.quote {
+    text-align: center;
+}
+
+.date {
+    font-weight: 600;
+}
+
+.comment {}
+
+#remember {
+    background-color: rgb(142, 142, 147);
+    display: block;
+    padding: 20px;
 }
