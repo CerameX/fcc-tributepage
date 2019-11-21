@@ -1,8 +1,9 @@
 body {
     background-color: rgb(209, 209, 214);
     color: rgb(36, 36, 38);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Work Sans', sans-serif;
     margin: 0px;
+    padding: 20px 40px 20px 40px;
 }
 
 p {
@@ -15,6 +16,7 @@ h1 {
 
 h2 {
     font-size: 24pt;
+    text-align: center;
 }
 
 #title {
@@ -36,6 +38,15 @@ h2 {
     max-width: 50%;
 }
 
+#timeline {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
 .quote {
     text-align: center;
     font-weight: 100;
@@ -46,7 +57,9 @@ h2 {
     font-weight: 600;
 }
 
-.comment {}
+.comment {
+    font-size: 12pt;
+}
 
 #remember {
     background-color: rgb(142, 142, 147);
