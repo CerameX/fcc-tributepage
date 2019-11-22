@@ -3,7 +3,6 @@ body {
     color: rgb(36, 36, 38);
     font-family: 'Work Sans', sans-serif;
     margin: 0px;
-    padding: 20px 40px 20px 40px;
 }
 
 p {
@@ -22,6 +21,12 @@ h2 {
 #title {
     text-align: center;
     text-transform: uppercase;
+    padding-top: 20px;
+}
+
+#tribute-info {
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 #img-div {
@@ -65,4 +70,8 @@ ul {
     background-color: rgb(142, 142, 147);
     display: block;
     padding: 20px;
+}
+
+footer {
+    margin-bottom: 20px;
 }
